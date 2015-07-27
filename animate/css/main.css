@@ -1,0 +1,60 @@
+.main {
+	background-color: white;
+	margin-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+
+.bunny,
+.still,
+.move {
+	width: 400px;
+	height: 414px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text {
+		background-image: url(../images/text.jpg);
+		background-size: 400px 103px;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+		height: 103px;
+}
+
+
+.still {
+	background-image: url(../images/still.jpg);
+	background-size: 400px 414px;
+	background-repeat: no-repeat;
+}
+
+.move {
+	background-image: url(../images/move.gif);
+	background-size: 400px 415px;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+.bunny {
+	margin-left: -6rem;
+	margin-top: -6rem;
+
+}
+
+/*
+.main, 
+.bunny,
+.still,
+.move,
+.text {
+	border: 2px solid black;
+}

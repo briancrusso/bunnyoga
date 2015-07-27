@@ -1,0 +1,71 @@
+body {
+    margin-top: 0px;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.image_click,
+.swap_image {
+    position: absolute;
+    width: 765px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 5em;
+}
+
+.rabbit_row {
+    position: absolute;
+    width: 1100px;
+    margin: auto;
+    right: 0;
+    left: -10em;
+}
+
+.image_click {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .swap_image {
+        display: none;
+    }
+
+    .image_click {
+    	display: inline;
+    }
+	
+	.forward_fold,
+	.mountain_pose,
+	.upper_push_up,
+	.reverse_warrior,
+	.half_pigeon,
+	.extended_side_angle,
+	.camel_pose,
+	.boat_pose,
+	.bound_extended_side_angle,
+	.crescent_lunge,
+	.powerlunge,
+	.upward_dog,
+	.butterfly,
+    .warrior1 {
+    	display: none;
+    }
+}
