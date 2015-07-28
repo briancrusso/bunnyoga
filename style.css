@@ -54,7 +54,8 @@ a:active {
 
     .mobile_front {
         background-image: url("mobile_front.jpg");
-        background-size: 100%;
+        background-size: 50%;
+        background-repeat: no-repeat;
         width: 650px;
         height: 435px;
     }
