@@ -51,6 +51,12 @@ a:active {
     .image_click {
     	display: inline;
     }
+
+    .mobile_front {
+        background-image: url("mobile_front.jpg");
+        background-size: 50%;
+        width: 100%;
+    }
 	
 	.forward_fold,
 	.mountain_pose,
