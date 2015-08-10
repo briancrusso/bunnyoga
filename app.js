@@ -67,64 +67,64 @@ ga('create', 'UA-57765024-1', 'auto');
 ga('send', 'pageview');
 
 $(document).ready(function() {
-    $('.mobile_front').click(function() {
-        $('.mobile_front').hide();
-        $('.warrior1').show();
+    $('.asanas_button').click(function() {
+        $('.front').hide();
+        $('.asana_2').hide();
+        $('.asana_3').hide();
+        $('.about_me').hide();
+        $('.animate').hide();
+        $('.asana_1').show();
     })
-    $('.warrior1').click(function() {
-        $('.warrior1').hide();
-        $('.butterfly').show();
+    $('.asana_1').click(function() {
+        $('.asana_1').hide();
+        $('.asana_2').show();
     })
-    $('.butterfly').click(function() {
-        $('.butterfly').hide();
-        $('.upward_dog').show();
+    $('.asana_2').click(function() {
+        $('.asana_2').hide();
+        $('.asana_3').show();
     })
-    $('.upward_dog').click(function() {
-        $('.upward_dog').hide();
-        $('.powerlunge').show();
+    $('.asana_3').click(function() {
+        $('.asana_3').hide();
+        $('.asana_1').show();
     })
-    $('.powerlunge').click(function() {
-        $('.powerlunge').hide();
-        $('.crescent_lunge').show();
+    $('.about_me_button').click(function() {
+        $('.asana_1').hide();
+        $('.asana_2').hide();
+        $('.asana_3').hide();
+        $('.front').hide();
+        $('.animate').hide();
+        $('.about_me').show();
     })
-    $('.crescent_lunge').click(function() {
-        $('.crescent_lunge').hide();
-        $('.bound_extended_side_angle').show();
+    $('.animate').mousedown(function() {
+            $('.still').hide();
+            $('.move').show();
+        })
+        .mouseup(function() {
+            $('.move').hide();
+            $('.still').show();
+        })
+        .bind("touchstart", function(e) {
+            $('.still').hide();
+            $('.move').show();
+        })
+        .bind("touchend", function(e) {
+            $('.move').hide();
+            $('.still').show();
+        })
+    $('.animate_button').click(function() {
+        $('.asana_1').hide();
+        $('.asana_2').hide();
+        $('.asana_3').hide();
+        $('.about_me').hide();
+        $('.front').hide();
+        $('.animate').show();
     })
-    $('.bound_extended_side_angle').click(function() {
-        $('.bound_extended_side_angle').hide();
-        $('.boat_pose').show();
-    })
-    $('.boat_pose').click(function() {
-        $('.boat_pose').hide();
-        $('.camel_pose').show();
-    })
-    $('.camel_pose').click(function() {
-        $('.camel_pose').hide();
-        $('.extended_side_angle').show();
-    })
-    $('.extended_side_angle').click(function() {
-        $('.extended_side_angle').hide();
-        $('.half_pigeon').show();
-    })
-    $('.half_pigeon').click(function() {
-        $('.half_pigeon').hide();
-        $('.reverse_warrior').show();
-    })
-     $('.reverse_warrior').click(function() {
-        $('.reverse_warrior').hide();
-        $('.upper_push_up').show();
-    })
-    $('.upper_push_up').click(function() {
-        $('.upper_push_up').hide();
-        $('.mountain_pose').show();
-    })
-    $('.mountain_pose').click(function() {
-        $('.mountain_pose').hide();
-        $('.forward_fold').show();
-    })
-    $('.forward_fold').click(function() {
-        $('.forward_fold').hide();
-        $('.mobile_front').show();
+    $('.home').click(function() {
+        $('.asana_1').hide();
+        $('.asana_2').hide();
+        $('.asana_3').hide();
+        $('.about_me').hide();
+        $('.animate').hide();
+        $('.front').show();
     });
 });

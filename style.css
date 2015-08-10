@@ -19,9 +19,9 @@ a:active {
     text-decoration: none;
 }
 
-.image_click,
+.about_me,
 .swap_image {
-    position: absolute;
+    position: relative;
     width: 765px;
     margin: auto;
     top: 0;
@@ -32,48 +32,140 @@ a:active {
 }
 
 .rabbit_row {
-    position: absolute;
+    position: relative;
     width: 1100px;
     margin: auto;
     right: 0;
     left: -10em;
 }
 
+.menu {
+    position: relative;
+    width: 25px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 1em;
+    font-size: 2em;
+    color: #6E727A;
+}
+
 .image_click {
     display: none;
 }
 
-@media only screen and (max-width: 650px) {
-    .swap_image {
-        display: none;
-    }
+.links {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 2em;
+    left: 20px;
+}
 
-    .image_click {
-    	display: inline;
-    }
+.links a {
+    display: inline;
+    padding: 1.75em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+    color: black;
+}
 
-    .mobile_front {
-        background-image: url("mobile_front.jpg");
-        background-size: 50%;
-        background-repeat: no-repeat;
-        width: 650px;
-        height: 435px;
-    }
-	
-	.forward_fold,
-	.mountain_pose,
-	.upper_push_up,
-	.reverse_warrior,
-	.half_pigeon,
-	.extended_side_angle,
-	.camel_pose,
-	.boat_pose,
-	.bound_extended_side_angle,
-	.crescent_lunge,
-	.powerlunge,
-	.upward_dog,
-	.butterfly,
-    .warrior1 {
-    	display: none;
-    }
+.links a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    width: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.icons a {
+    color: #6E727A;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline;
+    padding: 1.25em;
+}
+
+.icons a:hover {
+    color: black;
+}
+
+.asana_3,
+.asana_2,
+.asana_1 {
+    display: none;
+}
+
+.about_me {
+    height: 501px;
+    display: none;
+}
+
+.brian_picture {
+    position: relative;
+    width: 100px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -.25em;
+}
+
+hr {
+     color: #6E727A;
+     display: block;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+     border-style: inset;
+     border-width: 1px;
+}
+
+.about_me_text a {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #6E727A;
+    margin-top: -.5em;
+}
+
+.animate {
+    height: 501px;
+    display: none;
+}
+
+.still,
+.move {
+    width: 400px;
+    height: 414px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    position: relative;
+    width: 50px;
+    margin: auto;
+    right: 145px;
+}
+
+
+.still {
+    background-image: url('still.jpg');
+    background-size: 400px 414px;
+    background-repeat: no-repeat;
+}
+
+.move {
+    background-image: url('move.gif');
+    background-size: 400px 415px;
+    background-repeat: no-repeat;
+    display: none;
+}
 }
