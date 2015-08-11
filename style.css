@@ -170,7 +170,7 @@ hr {
 
 @media only screen and (max-width: 650px) {
    .links {
-    left: 75px;
+    left: 50px;
    }
 
     .links a {
@@ -183,7 +183,7 @@ hr {
     }
 
     .icons {
-        left: 60px;
+        left: 100px;
     }
 
     .rabbit_row {
