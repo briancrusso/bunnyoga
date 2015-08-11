@@ -183,7 +183,7 @@ hr {
     }
 
     .icons {
-        left: 100px;
+        left: 120px;
     }
 
     .rabbit_row {
@@ -197,5 +197,14 @@ hr {
 
     .bottom {
         padding: .50em;
+    }
+
+    .about_me {
+        width: 600px;
+        margin-left: -.01em;
+    }
+
+    .about_me_text {
+        font-size: .87em;
     }
 }
