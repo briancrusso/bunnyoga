@@ -202,9 +202,14 @@ hr {
     .about_me {
         width: 600px;
         margin-left: -.01em;
+        left: 4em;
     }
 
     .about_me_text {
         font-size: .87em;
+    }
+
+    .animate {
+        right: 4em;
     }
 }
