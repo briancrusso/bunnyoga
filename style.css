@@ -120,12 +120,12 @@ p {
 }
 
 hr {
-     color: #6E727A;
-     display: block;
-     margin-top: 0.5em;
-     margin-bottom: 0.5em;
-     border-style: inset;
-     border-width: 1px;
+    color: #6E727A;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 1px;
 }
 
 .about_me_text a {
@@ -155,7 +155,6 @@ hr {
     right: 145px;
 }
 
-
 .still {
     background-image: url('still.jpg');
     background-size: 400px 414px;
@@ -168,4 +167,35 @@ hr {
     background-repeat: no-repeat;
     display: none;
 }
+
+@media only screen and (max-width: 650px) {
+   .links {
+    left: 120px;
+   }
+
+    .links a {
+        padding: .75em;
+        border-right-style: solid;
+    }
+
+    .asanas_button {
+        border-width: 0px;
+    }
+
+    .icons {
+        left: 60px;
+    }
+
+    .rabbit_row {
+        width: 600px;
+        left: 0em;
+    }
+
+    .top {
+        padding: .10em;
+    }
+
+    .bottom {
+        padding: .50em;
+    }
 }
