@@ -170,11 +170,11 @@ hr {
 
 @media only screen and (max-width: 650px) {
    .links {
-    left: 120px;
+    left: 75px;
    }
 
     .links a {
-        padding: .75em;
+        padding: .5em;
         border-right-style: solid;
     }
 
@@ -188,7 +188,7 @@ hr {
 
     .rabbit_row {
         width: 600px;
-        left: 0em;
+        left: -3em;
     }
 
     .top {
